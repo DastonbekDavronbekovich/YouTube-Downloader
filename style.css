@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-color: #000;
+}
+h1{
+    margin-top: 40vh;
+    margin-bottom: 2vh;
+    color: blue;
+}
+.url, .btn{
+    font-size: 25px;
+    padding: 5px 12px;
+}
+.url{
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background-color: #eee;
+    border: 2.5px solid #eee;
+    width: 25%;
+}
+.url:focus{
+    border: 2.5px solid blue;
+}
+.btn {
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+    outline: none;
+}
